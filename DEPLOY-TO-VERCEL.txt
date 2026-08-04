@@ -1,0 +1,22 @@
+TANO'S KOINE ACADEMY — NO-BUILD VERCEL EDITION
+
+This package has no npm packages, no Next.js build, no database, and no API key.
+Vercel only needs to serve the included static files.
+
+UPLOAD METHOD
+1. Extract this ZIP.
+2. Create or open a GitHub repository.
+3. Upload the FILES INSIDE this folder so index.html is visible at the repository's top level.
+4. In Vercel choose Add New > Project and import the repository.
+5. Framework Preset: Other.
+6. Root Directory: leave as ./
+7. Build Command: leave empty / disabled.
+8. Output Directory: leave empty.
+9. Install Command: leave empty.
+10. Deploy.
+
+IMPORTANT
+- Do not upload the ZIP itself to GitHub. Extract it first.
+- index.html, app.js, data.js, styles.css and vercel.json must be at the repository root.
+- This edition saves learner progress in each browser.
+- A central teacher dashboard still requires Supabase login and database features later.
