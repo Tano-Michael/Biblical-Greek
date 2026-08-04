@@ -1,0 +1,29 @@
+TANO'S KOINE ACADEMY — VERCEL 404 FIX
+
+IMPORTANT: package.json must be visible at the TOP LEVEL of your GitHub repository.
+Do not upload this ZIP file itself to GitHub. Extract it first, then upload the extracted files and folders.
+
+CORRECT TOP-LEVEL ITEMS:
+- package.json
+- next.config.ts
+- vercel.json
+- src
+- public
+- tsconfig.json
+
+VERCEL SETTINGS:
+1. Framework Preset: Next.js
+2. Root Directory: .  (leave it at the repository root)
+3. Build Command: leave as Default, or use npm run build
+4. Output Directory: leave EMPTY / Default
+5. Install Command: leave as Default
+6. Deploy or Redeploy
+
+IF YOUR GITHUB REPOSITORY HAS THIS EXTRA FOLDER:
+  tanos-koine-academy-vercel-ready/package.json
+
+Either move everything inside that folder to the repository root, or set Vercel:
+Settings -> Build and Deployment -> Root Directory -> tanos-koine-academy-vercel-ready
+Then save and redeploy.
+
+If Vercel shows DEPLOYMENT_NOT_FOUND rather than a normal page 404, open the project dashboard and use the current Production deployment URL. An old or deleted deployment URL will not work.

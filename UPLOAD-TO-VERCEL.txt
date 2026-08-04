@@ -1,0 +1,16 @@
+TANO'S KOINE ACADEMY — SIMPLE VERCEL UPLOAD
+
+1. Extract this ZIP file.
+2. Upload every file and folder to a new GitHub repository.
+3. Confirm package.json is visible at the top level of the repository.
+4. Go to Vercel and select Add New > Project.
+5. Import the GitHub repository.
+6. Click Deploy.
+
+DO NOT ADD:
+- A database
+- An API key
+- Environment variables
+- A custom build command
+
+The site is already configured. Learner progress is saved privately in each browser.
